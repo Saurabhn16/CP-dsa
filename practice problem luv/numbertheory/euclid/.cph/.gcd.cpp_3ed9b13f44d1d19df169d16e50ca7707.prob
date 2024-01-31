@@ -1,0 +1,1 @@
+{"name":"Local: gcd","url":"c:\\practice\\code cp\\practice problem luv\\numbertheory\\euclid\\gcd.cpp","tests":[{"id":1685945006393,"input":"4\n2 4 \n3 6\n8 9\n6 8\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\practice problem luv\\numbertheory\\euclid\\gcd.cpp","group":"local","local":true}

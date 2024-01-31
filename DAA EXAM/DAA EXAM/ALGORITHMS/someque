@@ -1,0 +1,126 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+struct Node {
+    char symbol; 
+    int frequency;
+    Node* left; 
+    Node* right; 
+    Node(char symbol, int frequency) {
+        this->symbol = symbol;
+        this->frequency = frequency;
+        this->left = NULL;
+        this->right = NULL;
+    }
+    Node(Node* left, Node* right) {
+        this->symbol = '\0'; 
+        this->frequency = left->frequency + right->frequency;
+        this->left = left;
+        this->right = right;
+    }
+};
+struct CompareNodes {
+    bool operator() (Node* left, Node* right) {
+        return left->frequency > right->frequency;
+    }
+};
+Node* build(map<char, int> freq) {
+    priority_queue<Node*, vector<Node*>, CompareNodes> pq;
+    for (auto it = freq.begin(); it != freq.end(); ++it) {
+        pq.push(new Node(it->first, it->second));
+    }
+    while (pq.size() > 1) {
+        Node* left = pq.top(); pq.pop();
+        Node* right = pq.top(); pq.pop();
+        pq.push(new Node(left, right));
+    }
+    return pq.top();
+}
+
+void traverse(Node* node, string Sequence, map<char, string>& c) {
+    if (node->symbol != '\0') { 
+        c[node->symbol] = Sequence;
+    } else { 
+        traverse(node->left, Sequence + "0", c);
+        traverse(node->right, Sequence + "1", c);
+    }
+}
+
+int main() {
+    int n;
+    map<char, int> freq;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        char c;
+        int m;
+        cin>>c>>m;
+        freq[c]=m;
+    }
+
+    Node* root = build(freq);
+    map<char, string> sequence;
+    traverse(root, "", sequence);
+    for (auto it = sequence.begin(); it != sequence.end(); ++it) {
+        cout << it->first << ": " << it->second << endl;
+    }
+
+    return 0;
+}
+
+
+//time complexity-- O(nlogn)
+
+
+There are n cities and m roads between them. Unfortunately, the condition of the roads is so poor that they cannot be used. Your task is to repair some of the roads so that there will be a decent route between any two cities.
+
+For each road, you know its reparation cost, and you should find a solution where the total cost is as small as possible
+#include <bits/stdc++.h>
+using namespace std;
+const int INF = 1e9;
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<vector<pair<int, int>>> graph(n);
+    for (int i=0;i<m;i++) {
+        int a,b,c;
+        cin >>a>>b>>c;
+        a--; 
+        b--;
+        graph[a].push_back({b,c});
+        graph[b].push_back({a,c});
+    }
+    vector<bool>visited(n,false);
+    vector<int>dist(n,INF);
+    dist[0]=0;
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    pq.push({0,0});
+    int total_cost=0;
+    while (!pq.empty()) {
+        int u = pq.top().second;
+        pq.pop();
+        if (visited[u]) continue;
+        visited[u]=true;
+        total_cost+=dist[u];
+        for (auto edge:graph[u]) {
+            int v=edge.first;
+            int weight=edge.second;
+            if (!visited[v] && weight<dist[v]) {
+                dist[v]=weight;
+                pq.push({dist[v],v});
+            }
+        }
+    }
+    for (int i=0;i<n;i++) {
+        if (dist[i]==INF) {
+            cout << "IMPOSSIBLE\n";
+            return 0;
+        }
+    }
+    cout<<total_cost<<endl;
+    return 0;
+}
+
+
+//time complexity -- O(mlogn)

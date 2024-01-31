@@ -1,0 +1,1 @@
+{"name":"Local: addsmallestprimefactor","url":"c:\\practice\\code cp\\.vscode\\codechef.cpp\\addsmallestprimefactor.cpp","tests":[{"id":1678601037830,"input":"4\n2 23\n9 20\n5 100\n6 89","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\.vscode\\codechef.cpp\\addsmallestprimefactor.cpp","group":"local","local":true}

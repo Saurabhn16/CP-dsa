@@ -1,0 +1,1 @@
+{"name":"Local: JumpingonWalls","url":"c:\\practice\\code cp\\practice problem luv\\graph\\JumpingonWalls.cpp","tests":[{"id":1689665752622,"input":"7 3\n---X--X\n-X--XX-","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\practice problem luv\\graph\\JumpingonWalls.cpp","group":"local","local":true}

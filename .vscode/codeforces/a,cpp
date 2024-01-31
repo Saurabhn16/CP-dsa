@@ -1,0 +1,31 @@
+.CREATE A SINGLE NODE 
+ create(n)  ToSEE match(n) return n;
+LABEL 
+create(e:employee) return e;
+
+
+CREATE MULTIMLE NODE 
+create(e:employee),(d:department) return e,d;
+
+CREATING NODE WITH MULTIPLE LABEL 
+create( e:employee :professor) return e;
+
+
+CREATE NODE WITH PROPERTIES 
+create(e:employee{ name:'satish',address:'vellor'})return e
+
+CREATE multiple NODE with properties
+ create(e:employee{name:'satish'}),(d:department{name:'scope'})
+
+ALL NODE 
+match(n) return n
+ 
+DELETE all NODE 
+match(n) detach delete n
+
+
+PARTICULAR  BRANCH OF 
+match(e:student{name:'ram'}) return e.branch
+ 
+TO RETURN A PROPERTIES 
+match(s:student) return s.name

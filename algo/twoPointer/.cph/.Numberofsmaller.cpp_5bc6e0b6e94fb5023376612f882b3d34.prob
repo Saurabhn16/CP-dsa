@@ -1,0 +1,1 @@
+{"name":"Local: Numberofsmaller","url":"c:\\practice\\code cp\\algo\\twoPointer\\Numberofsmaller.cpp","tests":[{"id":1687234937759,"input":"6 7\n1 6 9 13 18 18\n2 3 8 13 15 21 25","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\algo\\twoPointer\\Numberofsmaller.cpp","group":"local","local":true}

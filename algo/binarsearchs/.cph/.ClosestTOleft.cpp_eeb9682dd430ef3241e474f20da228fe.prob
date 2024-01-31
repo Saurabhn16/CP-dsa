@@ -1,0 +1,1 @@
+{"name":"Local: ClosestTOleft","url":"c:\\practice\\code cp\\algo\\binarsearchs\\ClosestTOleft.cpp","tests":[{"id":1688533191862,"input":"5 5\n3 3 5 8 9\n2 4 8 1 10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\algo\\binarsearchs\\ClosestTOleft.cpp","group":"local","local":true}

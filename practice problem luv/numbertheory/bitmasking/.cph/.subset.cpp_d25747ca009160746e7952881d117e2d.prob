@@ -1,0 +1,1 @@
+{"name":"Local: subset","url":"c:\\practice\\code cp\\practice problem luv\\numbertheory\\bitmasking\\subset.cpp","tests":[{"id":1685941166705,"input":"2\n6 5\n1 7 3 4 2 13\n3 2\n1  4 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\practice problem luv\\numbertheory\\bitmasking\\subset.cpp","group":"local","local":true}

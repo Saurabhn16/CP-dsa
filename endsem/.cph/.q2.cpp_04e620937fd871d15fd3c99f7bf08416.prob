@@ -1,0 +1,1 @@
+{"name":"Local: q2","url":"c:\\practice\\code cp\\endsem\\q2.cpp","tests":[{"id":1681989580731,"input":"abc def fdacbe","output":""},{"id":1681989610580,"input":"choclate\ncip chocalatechilatspe","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\endsem\\q2.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 0-1bfs","url":"c:\\practice\\code cp\\practice problem luv\\graph\\0-1bfs.cpp","tests":[{"id":1688970306151,"input":"7 7\n1 2 \n3 2\n3 4\n7 4\n6 2\n5 6\n7 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\practice problem luv\\graph\\0-1bfs.cpp","group":"local","local":true}

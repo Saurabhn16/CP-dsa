@@ -1,0 +1,1 @@
+{"name":"Local: consecutivexor","url":"c:\\practice\\code cp\\.vscode\\codechef.cpp\\consecutivexor.cpp","tests":[{"id":1674649446028,"input":"3\n4\n3 2 2 3\n6\n0 1 2 3 4 5\n3\n1 2 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\.vscode\\codechef.cpp\\consecutivexor.cpp","group":"local","local":true}

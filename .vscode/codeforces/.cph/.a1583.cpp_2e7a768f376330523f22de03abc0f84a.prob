@@ -1,0 +1,1 @@
+{"name":"Local: a1583","url":"c:\\practice\\code cp\\.vscode\\codeforces\\a1583.cpp","tests":[{"id":1675170713038,"input":"4\n3\n8 1 2\n4\n2 6 9 2\n4\n6 9 4 2\n9\n1 2 3 4 5 6 7 8 9\n3\n200 199 198","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\.vscode\\codeforces\\a1583.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: fastesSearch","url":"c:\\practice\\code cp\\algo\\binarsearchs\\fastesSearch.cpp","tests":[{"id":1688619400995,"input":"5\n10 1 10 3 4\n4\n1 10\n2 9\n3 4\n2 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\algo\\binarsearchs\\fastesSearch.cpp","group":"local","local":true}

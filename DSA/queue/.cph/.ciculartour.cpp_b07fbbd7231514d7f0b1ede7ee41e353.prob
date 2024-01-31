@@ -1,0 +1,1 @@
+{"name":"Local: ciculartour","url":"c:\\practice\\code cp\\DSA\\queue\\ciculartour.cpp","tests":[{"id":1684598491001,"input":"1 \n4 \n4 6\n6 5 \n7 3 \n4 5 ","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\DSA\\queue\\ciculartour.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: longesetincraseingSubsequence","url":"c:\\practice\\code cp\\dp\\2ddp\\longesetincraseingSubsequence.cpp","tests":[{"id":1689305950310,"input":"3\n3\n6 6 6\n6\n2 5 4 5 2 4\n4\n1 3 2 2\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\dp\\2ddp\\longesetincraseingSubsequence.cpp","group":"local","local":true}

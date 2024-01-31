@@ -1,0 +1,1 @@
+{"name":"Local: l-validParanthesis","url":"c:\\practice\\code cp\\DSA\\stack\\l-validParanthesis.cpp","tests":[{"id":1679221204140,"input":"3\n[[}[\n[]{}()\n(}","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\DSA\\stack\\l-validParanthesis.cpp","group":"local","local":true}

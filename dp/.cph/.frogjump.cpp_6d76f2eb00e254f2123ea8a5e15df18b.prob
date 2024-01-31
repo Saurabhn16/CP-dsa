@@ -1,0 +1,1 @@
+{"name":"Local: frogjump","url":"c:\\practice\\code cp\\dp\\frogjump.cpp","tests":[{"id":1680698259711,"input":"4\n4\n10 20 30 10\n3\n10 50 10\n8\n7 4 4 2 6 6 3 4 \n6\n4 8 3 10 4 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\dp\\frogjump.cpp","group":"local","local":true}

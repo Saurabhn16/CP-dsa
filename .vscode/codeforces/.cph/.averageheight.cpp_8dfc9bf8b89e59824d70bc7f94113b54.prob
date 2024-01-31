@@ -1,0 +1,1 @@
+{"name":"Local: averageheight","url":"c:\\practice\\code cp\\.vscode\\codeforces\\averageheight.cpp","tests":[{"id":1678726977729,"input":"4\n3\n1 1 2\n3\n1 1 1\n8\n10 9 13 15 3 16 9 13\n2\n18 9","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\.vscode\\codeforces\\averageheight.cpp","group":"local","local":true}

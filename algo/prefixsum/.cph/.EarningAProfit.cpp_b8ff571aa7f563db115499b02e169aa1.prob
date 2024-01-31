@@ -1,0 +1,1 @@
+{"name":"Local: EarningAProfit","url":"c:\\practice\\code cp\\algo\\prefixsum\\EarningAProfit.cpp","tests":[{"id":1689480887897,"input":"1\n3 10\n1 3 \n3 1 \n2 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\algo\\prefixsum\\EarningAProfit.cpp","group":"local","local":true}

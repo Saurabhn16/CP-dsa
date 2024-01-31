@@ -1,0 +1,1 @@
+{"name":"Local: sieveAlgo","url":"c:\\practice\\code cp\\practice problem luv\\numbertheory\\sieveAlgo.cpp","tests":[{"id":1686113213162,"input":"5\n 4 17 19 21 23","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\practice problem luv\\numbertheory\\sieveAlgo.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: towerofhanoi","url":"c:\\practice\\code cp\\rec\\towerofhanoi.cpp","tests":[{"id":1684048760604,"input":"3 \n2 \n 3 \n 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\practice\\code cp\\rec\\towerofhanoi.cpp","group":"local","local":true}
